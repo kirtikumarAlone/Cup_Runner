@@ -136,7 +136,6 @@ Obstacle types and spawn weights live in `OBSTACLE_DEFS`.
 
 ## 📄 License
 
-Add your license here (e.g. MIT).
 
 ---
 
