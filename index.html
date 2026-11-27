@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>The Cup  Ride 3D — Endless Runner</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="app"></div>
+
+<div id="hud">
+  <div>
+    <div id="score">00000</div>
+    <div id="coins">🍃 0</div>
+  </div>
+  <div id="best">BEST 00000<br><span id="fps"></span></div>
+</div>
+
+<div id="hint">← → / A D — switch lane &nbsp;·&nbsp; SPACE / ↑ — jump &nbsp;·&nbsp; P — pause &nbsp;·&nbsp; M — mute</div>
+
+<div id="overlay">
+  <div id="card">
+    <div id="title">THE TEA RIDE</div>
+    <div id="sub">an endless cup of chaos</div>
+    <div id="big"></div>
+    <div id="newbest"></div>
+    <div id="cta">PRESS SPACE / TAP TO RIDE</div>
+  </div>
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+  }
+}
+</script>
+
+<script type="module" src="main.js">
+
+</script>
+</body>
+</html>
